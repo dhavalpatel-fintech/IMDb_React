@@ -1,6 +1,4 @@
 import React from 'react';
-import Logo from '../Components/IMDBLogo.jpg';
-import Logo1 from '../Components/IMDBPro.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -9,7 +7,7 @@ const Navbar = () => {
       {/* 1 - Logo & Links */}
       <div className="flex items-center space-x-4 shrink-0">
         <a href="/">
-          <img className="w-[90px] h-[40px]" src={Logo} alt="IMDB Logo" />
+          <img className="w-[90px] h-[40px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png" alt="IMDB Logo" />
         </a>
         <Link to="/">
           <h1 className="text-[24px] font-extrabold text-blue-950 p-2 hover:scale-110 transition duration-300 whitespace-nowrap">
@@ -56,8 +54,8 @@ const Navbar = () => {
       {/* 3 - IMDBPro + SignIn/Up + Lang */}
       <div className="flex items-center space-x-6 shrink-0">
         <a href="#" className="text-center mt-2">
-          <img className="w-[85px] h-[20px]" src={Logo1} alt="IMDB Pro" />
-          <p className="text-xs">an Amazon Co.</p>
+          <img className="w-[85px] h-[20px]" src="https://www.pngkey.com/png/full/343-3433325_imdb-pro-logo-imdbpro-logo.png" alt="IMDB Pro" />
+          <p className="text-xs space-x-2">an Amazon Co.</p>
         </a>
 
         <div className="w-[2px] h-10 bg-gray-400"></div>
