@@ -44,7 +44,7 @@ const Navbar = () => {
           />
 
           <div className="m-3 bg-gray-300 rounded-md w-[40px] h-[35px] hover:bg-gray-400 hover:scale-90 transition duration-300 flex justify-center items-center">
-            <button className="text-xl cursor-pointer">
+            <button className="text-md cursor-pointer">
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
