@@ -39,11 +39,11 @@ const Navbar = () => {
 
           <input
             type="text"
-            className="w-[700px] h-[35px] p-2 outline-none border border-gray-300 rounded-md bg-gray-200 hover:cursor-text"
+            className="w-[650px] h-[35px] p-2 outline-none border border-gray-300 rounded-md bg-gray-200 hover:cursor-text"
             placeholder="Search a movie..."
           />
 
-          <div className="m-3 bg-gray-300 rounded-md w-[40px] h-[35px] hover:bg-gray-400 hover:scale-90 transition duration-300 flex justify-center items-center">
+          <div className="m-1 p-2 bg-gray-300 rounded-md w-[40px] h-[35px] hover:bg-gray-400 hover:scale-90 transition duration-300 flex justify-center items-center">
             <button className="text-md cursor-pointer">
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
