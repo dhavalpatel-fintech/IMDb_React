@@ -28,7 +28,7 @@ const Navbar = () => {
           <h3 className="font-medium text-xl mb-1 whitespace-nowrap">Menu</h3>
         </button>
 
-        <div className="flex w-[80%] items-center border-2 rounded-md h-[50px] overflow-hidden justify-between">
+        <div className="flex w-[70%] items-center border-2 rounded-md h-[50px] overflow-hidden justify-between">
           <select className="m-2 bg-gray-100 outline-none text-center border border-gray-200 p-2 rounded-md" name="Genre" id="Genre">
             <option value="all">All</option>
             <option value="Romance">Romance</option>
